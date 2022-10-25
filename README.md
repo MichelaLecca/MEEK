@@ -12,6 +12,7 @@ MEEK embeds three algorithms for image enhancement:
 2) REK [2], a relighting method based on the von Kries model and specifically designed for the enhancement of images with strong backlight and spotlight;
 3) CLAHE [3] , a popular algorithm for enhancing the image contrast by redistributing the image luminance.
 
+The picture reported above shows the interface of MEEK. In this example, a backlight image (on left) has been relighted by REK (on right).
 MEEK is implemented in C++ and exploits the OpenCV C++ library (https://opencv.org/). 
 
 ***********************************************************
