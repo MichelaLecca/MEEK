@@ -13,6 +13,7 @@ MEEK embeds three algorithms for image enhancement:
 3) CLAHE [3] , a popular algorithm for enhancing the image contrast by redistributing the image luminance.
 
 The picture reported above shows the interface of MEEK. In this example, a backlight image (on left) has been relighted by REK (on right).
+
 MEEK is implemented in C++ and exploits the OpenCV C++ library (https://opencv.org/). 
 
 ***********************************************************
@@ -40,7 +41,7 @@ Pressing 'Save', the output image will be saved as enhanced_image.png.
 
 Note that the code of SuPeR has been cloned from  https://github.com/StefanoMesselodi/Super
 
-An example of MEEK interface is show in example01.jpg.
+An example of MEEK interface is provided in example01.jpg.
 
 ***********************************************************
 ## References:
