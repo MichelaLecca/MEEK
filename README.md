@@ -4,6 +4,7 @@ iMage EnhancEment Kit
 This is the implementation of MEEK, a basic tool for enhancing images acquired undeer low-light, backligth and spotlight. MEEK has been tested as an enhancer of archaeological images, which depict places or objects that are difficult to be well illuminated, such as excavation, crypts, mosaics and paintings.
 
 
+![example01](https://user-images.githubusercontent.com/82895709/197752211-8c3c27f9-71b8-484a-ba2b-10e7ae8b962e.JPG)
 
 MEEK embeds three algorithms for image enhancement:
 1) SuPeR [1], a Retinex inspired algorithm for improving non uniform low-light images, also mitigiating/removing possible color catsts due to the illuminations;
