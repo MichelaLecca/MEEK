@@ -41,8 +41,6 @@ Pressing 'Save', the output image will be saved as enhanced_image.png.
 
 Note that the code of SuPeR has been cloned from  https://github.com/StefanoMesselodi/Super
 
-An example of MEEK interface is provided in example01.jpg.
-
 ***********************************************************
 ## References:
 
