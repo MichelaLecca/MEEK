@@ -3,6 +3,8 @@ iMage EnhancEment Kit
 
 This is the implementation of MEEK, a basic tool for enhancing images acquired undeer low-light, backligth and spotlight. MEEK has been tested as an enhancer of archaeological images, which depict places or objects that are difficult to be well illuminated, such as excavation, crypts, mosaics and paintings.
 
+
+
 MEEK embeds three algorithms for image enhancement:
 1) SuPeR [1], a Retinex inspired algorithm for improving non uniform low-light images, also mitigiating/removing possible color catsts due to the illuminations;
 2) REK [2], a relighting method based on the von Kries model and specifically designed for the enhancement of images with strong backlight and spotlight;
@@ -10,8 +12,8 @@ MEEK embeds three algorithms for image enhancement:
 
 MEEK is implemented in C++ and exploits the OpenCV C++ library (https://opencv.org/). 
 
-
-COMPILATION RULE:
+***********************************************************
+## Compilation Rule:
 
 To compile MEEK (meek.cpp) please include the OpenCV libraries and the files rek.h, rek.cpp, super.h.
 
@@ -22,7 +24,7 @@ g++ -Wall  -I.  -I/home/mySoftware/opencv-3.4.0/release//include/ -g    -L. -L/h
 Before compiling under Windows please uncomment #define WIN  in rek.h, rek.cpp and meek.cpp
 
 ***********************************************************
-Using MEEK:
+## Using MEEK:
 
 Run the following command:
 
@@ -38,7 +40,7 @@ Note that the code of SuPeR has been cloned from  https://github.com/StefanoMess
 An example of MEEK interface is show in example01.jpg.
 
 ***********************************************************
-References:
+## References:
 
 [1] M. Lecca and S. Messelodi. SuPeR: Milano Retinex implementation exploiting a regular image grid. Journal of the Optical Society of America A - Optics Image Science and Vision, 36(8):1423--1432, 2019
 
