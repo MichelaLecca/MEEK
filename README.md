@@ -45,7 +45,7 @@ Pressing 'Save', the output image will be saved as enhanced_image.png.
 
 Note that the code of SuPeR has been cloned from  https://github.com/StefanoMesselodi/Super
 
-PLEASE; CITE [4] IF USING MEEK. 
+-- PLEASE; CITE [4] IF USING MEEK. --
 
 ***********************************************************
 ## References:
