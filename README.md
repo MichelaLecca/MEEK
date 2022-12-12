@@ -3,6 +3,10 @@ iMage EnhancEment Kit
 
 This is the implementation of MEEK, a basic tool for enhancing images acquired undeer low-light, backligth and spotlight. MEEK has been tested as an enhancer of archaeological images, which depict places or objects that are difficult to be well illuminated, such as excavation, crypts, mosaics and paintings.
 
+MEEK is presented in the following paper:
+
+Michela Lecca, A Basic Tool for Improving Bad Illuminated Archaeological Pictures, in Proc. of VISAPP 2023
+
 
 ![meek-01](https://user-images.githubusercontent.com/82895709/197752535-e00de778-858c-4f18-b51f-97d8e03b84ee.JPG)
 
@@ -41,6 +45,8 @@ Pressing 'Save', the output image will be saved as enhanced_image.png.
 
 Note that the code of SuPeR has been cloned from  https://github.com/StefanoMesselodi/Super
 
+PLEASE; CITE [4] IF USING MEEK. 
+
 ***********************************************************
 ## References:
 
@@ -50,3 +56,4 @@ Note that the code of SuPeR has been cloned from  https://github.com/StefanoMess
 
 [3] K. J. Zuiderveld. Contrast limited adaptive histogram equalization. In Graphics Gems, 1994.
  
+[4] M. Lecca. A Basic Tool for Improving Bad Illuminated Archaeological Pictures. In Proc. of VISAPP 2023
