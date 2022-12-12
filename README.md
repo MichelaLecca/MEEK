@@ -3,7 +3,7 @@ iMage EnhancEment Kit
 
 This is the implementation of MEEK, a basic tool for enhancing images acquired undeer low-light, backligth and spotlight. MEEK has been tested as an enhancer of archaeological images, which depict places or objects that are difficult to be well illuminated, such as excavation, crypts, mosaics and paintings.
 
-MEEK is presented in the following paper:
+MEEK is presented in the following paper [1]:
 
 Michela Lecca, A Basic Tool for Improving Bad Illuminated Archaeological Pictures, in Proc. of VISAPP 2023
 
@@ -12,9 +12,9 @@ Michela Lecca, A Basic Tool for Improving Bad Illuminated Archaeological Picture
 
 
 MEEK embeds three algorithms for image enhancement:
-1) SuPeR [1], a Retinex inspired algorithm for improving non uniform low-light images, also mitigiating/removing possible color catsts due to the illuminations;
-2) REK [2], a relighting method based on the von Kries model and specifically designed for the enhancement of images with strong backlight and spotlight;
-3) CLAHE [3] , a popular algorithm for enhancing the image contrast by redistributing the image luminance.
+1) SuPeR [2], a Retinex inspired algorithm for improving non uniform low-light images, also mitigiating/removing possible color catsts due to the illuminations;
+2) REK [3], a relighting method based on the von Kries model and specifically designed for the enhancement of images with strong backlight and spotlight;
+3) CLAHE [4] , a popular algorithm for enhancing the image contrast by redistributing the image luminance.
 
 The picture reported above shows the interface of MEEK. In this example, a backlight image (on left) has been relighted by REK (on right).
 
@@ -45,15 +45,16 @@ Pressing 'Save', the output image will be saved as enhanced_image.png.
 
 Note that the code of SuPeR has been cloned from  https://github.com/StefanoMesselodi/Super
 
--- PLEASE; CITE [4] IF USING MEEK. --
+-- PLEASE; CITE [1] IF USING MEEK. --
 
 ***********************************************************
 ## References:
 
-[1] M. Lecca and S. Messelodi. SuPeR: Milano Retinex implementation exploiting a regular image grid. Journal of the Optical Society of America A - Optics Image Science and Vision, 36(8):1423--1432, 2019
+[1] M. Lecca. A Basic Tool for Improving Bad Illuminated Archaeological Pictures. In Proc. of VISAPP 2023
 
-[2] M. Lecca. Relighting Backlight and Spotlight Images using the von Kries Model, 2nd International Conference on Image Processing and Vision Engineering - IMPROVE, April 2022
+[2] M. Lecca and S. Messelodi. SuPeR: Milano Retinex implementation exploiting a regular image grid. Journal of the Optical Society of America A - Optics Image Science and Vision, 36(8):1423--1432, 2019
 
-[3] K. J. Zuiderveld. Contrast limited adaptive histogram equalization. In Graphics Gems, 1994.
+[3] M. Lecca. Relighting Backlight and Spotlight Images using the von Kries Model, 2nd International Conference on Image Processing and Vision Engineering - IMPROVE, April 2022
+
+[4] K. J. Zuiderveld. Contrast limited adaptive histogram equalization. In Graphics Gems, 1994.
  
-[4] M. Lecca. A Basic Tool for Improving Bad Illuminated Archaeological Pictures. In Proc. of VISAPP 2023
